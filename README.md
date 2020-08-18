@@ -38,7 +38,7 @@ For the sake of performance, we limit the number of search results if there are 
 ## Regular Expression and Exact Matches Support
 Whenever the user does need an exact match, just use double quotes around a word or words. For example, you can search for `"airplane" flew` instead of `airplane flew`. This should be intuitive because that's how you would make your results exact in Google search. 
 
-You can search using regular expressions by surrounding your search text with `/`. For example, to look for 4-letter words that start with "d" and end with "e", type `/\sd[^\s]{2}e\s/`.
+You can search using regular expressions by surrounding your search text with `/`. For example, to look for 4-letter words that start with "d" and end with "e", type `/\bd[^\s]{2}e\b/`.
 
 ## Development
 
